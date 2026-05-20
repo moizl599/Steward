@@ -211,7 +211,8 @@ Approximate priority order:
 
 ## Documentation
 
-- [`docs/INSTALL.md`](docs/INSTALL.md) — Detailed deployment guide.
+- [`docs/INSTALL.md`](docs/INSTALL.md) — Detailed deployment guide for Steward itself.
+- [`docs/AWS_KUBECOST_SETUP.md`](docs/AWS_KUBECOST_SETUP.md) — Setting up Kubecost on AWS EKS so Steward has something to analyze. Read this first if you don't already have a running Kubecost.
 - [`docs/CONFIGURATION.md`](docs/CONFIGURATION.md) — Full environment variable reference and customization points.
 - [`docs/ARCHITECTURE.md`](docs/ARCHITECTURE.md) — System architecture, the grounding + validator + enricher pattern, data flow.
 - [`docs/OPERATIONS.md`](docs/OPERATIONS.md) — Day-2 operations, log interpretation, backup, model updates.
