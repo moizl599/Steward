@@ -1,0 +1,85 @@
+{
+  "window": "7d",
+  "total_cost_usd": 215.46,
+  "monthly_run_rate_usd": 923.4,
+  "cluster_scale": "small",
+  "efficiency_grade": "poor",
+  "analysis_hints": {
+    "idle_workload_count": 1,
+    "over_provisioned_count": 1,
+    "pvc_waste_count": 0,
+    "anomaly_count": 0,
+    "efficiency_grade": "poor",
+    "cluster_scale": "small"
+  },
+  "cluster_efficiency": {
+    "cpu": 0.162,
+    "memory": 0.312,
+    "overall": 0.206
+  },
+  "cluster_breakdown": {
+    "idle_pool_cost_usd": 32.35,
+    "unallocated_cost_usd": 1.85,
+    "unmounted_cost_usd": 0.0
+  },
+  "top_namespaces_by_cost": [
+    {
+      "namespace": "production",
+      "cost_usd": 147.06,
+      "share": 0.683
+    },
+    {
+      "namespace": "data-science",
+      "cost_usd": 32.65,
+      "share": 0.152
+    },
+    {
+      "namespace": "kube-system",
+      "cost_usd": 1.55,
+      "share": 0.007
+    }
+  ],
+  "idle_workloads": [
+    {
+      "name": "data-science/Deployment/jupyter",
+      "namespace": "data-science",
+      "controller_kind": "Deployment",
+      "controller": "jupyter",
+      "cpu_util": 0.045,
+      "mem_util": 0.062,
+      "cost_usd": 32.65,
+      "impact_usd": 32.65
+    }
+  ],
+  "over_provisioned": [
+    {
+      "name": "production/StatefulSet/postgres",
+      "namespace": "production",
+      "controller_kind": "StatefulSet",
+      "controller": "postgres",
+      "cpu_util": 0.155,
+      "mem_util": 0.75,
+      "cost_usd": 73.1,
+      "impact_usd": 36.55
+    }
+  ],
+  "pvc_waste": [],
+  "anomalies": [],
+  "savings_signals": {
+    "request_sizing": {
+      "total_monthly_savings_usd": 105.7,
+      "candidate_count": 2
+    },
+    "cluster_sizing": {
+      "monthly_savings_usd": 240.0,
+      "current_nodes": 6,
+      "recommended_nodes": 4
+    },
+    "abandoned_workloads": {
+      "total_monthly_cost_usd": 42.7,
+      "count": 2
+    }
+  },
+  "truncated": false,
+  "truncated_counts": {}
+}

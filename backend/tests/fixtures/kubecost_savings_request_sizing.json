@@ -1,0 +1,25 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "clusterID": "eks-prod",
+      "namespace": "data-science",
+      "controllerKind": "Deployment",
+      "controllerName": "jupyter",
+      "containerName": "jupyter",
+      "currentRequest": {"cpu": 4.0, "memory": 17179869184},
+      "recommendedRequest": {"cpu": 0.5, "memory": 6442450944},
+      "monthlySavings": 84.30
+    },
+    {
+      "clusterID": "eks-prod",
+      "namespace": "production",
+      "controllerKind": "StatefulSet",
+      "controllerName": "postgres",
+      "containerName": "postgres",
+      "currentRequest": {"cpu": 2.0, "memory": 8589934592},
+      "recommendedRequest": {"cpu": 1.0, "memory": 7516192768},
+      "monthlySavings": 21.40
+    }
+  ]
+}

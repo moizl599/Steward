@@ -1,0 +1,31 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "Node/eks-prod": {
+        "type": "Node",
+        "properties": {"cluster": "eks-prod", "category": "Compute"},
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cost": 184.60,
+        "credit": -22.50,
+        "totalCost": 162.10
+      },
+      "Disk/eks-prod": {
+        "type": "Disk",
+        "properties": {"cluster": "eks-prod", "category": "Storage"},
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cost": 47.80,
+        "credit": 0.0,
+        "totalCost": 47.80
+      },
+      "LoadBalancer/eks-prod": {
+        "type": "LoadBalancer",
+        "properties": {"cluster": "eks-prod", "category": "Network"},
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cost": 22.05,
+        "credit": 0.0,
+        "totalCost": 22.05
+      }
+    }
+  ]
+}

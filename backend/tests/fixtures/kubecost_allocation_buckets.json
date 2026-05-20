@@ -1,0 +1,75 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "production/Deployment/api": {
+        "name": "production/Deployment/api",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "production",
+          "controllerKind": "Deployment",
+          "controller": "api"
+        },
+        "window": {"start": "2026-04-27T00:00:00Z", "end": "2026-04-28T00:00:00Z"},
+        "cpuCoreUsageAverage": 0.61,
+        "cpuCoreRequestAverage": 1.0,
+        "cpuCost": 6.02,
+        "ramCost": 1.36,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.46,
+        "loadBalancerCost": 2.57,
+        "sharedCost": 0.16,
+        "externalCost": 0.0
+      },
+      "__idle__": {
+        "name": "__idle__",
+        "properties": {"cluster": "eks-prod"},
+        "window": {"start": "2026-04-27T00:00:00Z", "end": "2026-04-28T00:00:00Z"},
+        "cpuCost": 3.20,
+        "ramCost": 1.42,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.0,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0
+      }
+    },
+    {
+      "production/Deployment/api": {
+        "name": "production/Deployment/api",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "production",
+          "controllerKind": "Deployment",
+          "controller": "api"
+        },
+        "window": {"start": "2026-04-28T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCoreUsageAverage": 0.74,
+        "cpuCoreRequestAverage": 1.0,
+        "cpuCost": 6.10,
+        "ramCost": 1.40,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.51,
+        "loadBalancerCost": 2.57,
+        "sharedCost": 0.16,
+        "externalCost": 0.0
+      },
+      "__idle__": {
+        "name": "__idle__",
+        "properties": {"cluster": "eks-prod"},
+        "window": {"start": "2026-04-28T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCost": 3.18,
+        "ramCost": 1.40,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.0,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0
+      }
+    }
+  ]
+}

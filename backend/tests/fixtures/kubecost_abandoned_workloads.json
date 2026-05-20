@@ -1,0 +1,21 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "clusterID": "eks-prod",
+      "namespace": "qa",
+      "controllerKind": "Deployment",
+      "controllerName": "stale-canary",
+      "lastTrafficSeenHours": 312,
+      "monthlyCost": 28.50
+    },
+    {
+      "clusterID": "eks-prod",
+      "namespace": "data-science",
+      "controllerKind": "StatefulSet",
+      "controllerName": "abandoned-redis",
+      "lastTrafficSeenHours": 504,
+      "monthlyCost": 14.20
+    }
+  ]
+}

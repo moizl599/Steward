@@ -1,0 +1,11 @@
+{
+  "code": 200,
+  "data": {
+    "clusterID": "eks-prod",
+    "currentNodes": 6,
+    "recommendedNodes": 4,
+    "currentMonthlyCost": 720.00,
+    "recommendedMonthlyCost": 480.00,
+    "monthlySavings": 240.00
+  }
+}

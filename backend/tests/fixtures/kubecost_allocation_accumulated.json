@@ -1,0 +1,123 @@
+{
+  "code": 200,
+  "data": [
+    {
+      "data-science/Deployment/jupyter": {
+        "name": "data-science/Deployment/jupyter",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "data-science",
+          "controllerKind": "Deployment",
+          "controller": "jupyter"
+        },
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCores": 4,
+        "cpuCoreUsageAverage": 0.18,
+        "cpuCoreRequestAverage": 4.0,
+        "ramByteUsageAverage": 1073741824,
+        "ramByteRequestAverage": 17179869184,
+        "cpuCost": 18.43,
+        "ramCost": 11.27,
+        "gpuCost": 0.0,
+        "pvCost": 2.10,
+        "networkCost": 0.85,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0,
+        "totalCost": 32.65
+      },
+      "production/Deployment/api": {
+        "name": "production/Deployment/api",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "production",
+          "controllerKind": "Deployment",
+          "controller": "api"
+        },
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCoreUsageAverage": 0.62,
+        "cpuCoreRequestAverage": 1.0,
+        "ramByteUsageAverage": 805306368,
+        "ramByteRequestAverage": 1073741824,
+        "cpuCost": 42.10,
+        "ramCost": 9.55,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 3.21,
+        "loadBalancerCost": 18.00,
+        "sharedCost": 1.10,
+        "externalCost": 0.0
+      },
+      "production/StatefulSet/postgres": {
+        "name": "production/StatefulSet/postgres",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "production",
+          "controllerKind": "StatefulSet",
+          "controller": "postgres"
+        },
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCoreUsageAverage": 0.31,
+        "cpuCoreRequestAverage": 2.0,
+        "ramByteUsageAverage": 6442450944,
+        "ramByteRequestAverage": 8589934592,
+        "cpuCost": 24.55,
+        "ramCost": 14.80,
+        "gpuCost": 0.0,
+        "pvCost": 32.40,
+        "networkCost": 0.40,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.95,
+        "externalCost": 0.0
+      },
+      "kube-system/DaemonSet/kube-proxy": {
+        "name": "kube-system/DaemonSet/kube-proxy",
+        "properties": {
+          "cluster": "eks-prod",
+          "namespace": "kube-system",
+          "controllerKind": "DaemonSet",
+          "controller": "kube-proxy"
+        },
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCoreUsageAverage": 0.04,
+        "cpuCoreRequestAverage": 0.10,
+        "ramByteUsageAverage": 134217728,
+        "ramByteRequestAverage": 268435456,
+        "cpuCost": 1.10,
+        "ramCost": 0.45,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.0,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0
+      },
+      "__idle__": {
+        "name": "__idle__",
+        "properties": {"cluster": "eks-prod"},
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCost": 22.40,
+        "ramCost": 9.95,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.0,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0
+      },
+      "__unallocated__": {
+        "name": "__unallocated__",
+        "properties": {"cluster": "eks-prod"},
+        "window": {"start": "2026-04-22T00:00:00Z", "end": "2026-04-29T00:00:00Z"},
+        "cpuCost": 1.20,
+        "ramCost": 0.65,
+        "gpuCost": 0.0,
+        "pvCost": 0.0,
+        "networkCost": 0.0,
+        "loadBalancerCost": 0.0,
+        "sharedCost": 0.0,
+        "externalCost": 0.0
+      }
+    }
+  ]
+}
